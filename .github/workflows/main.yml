@@ -31,4 +31,4 @@ jobs:
               run: echo "$BRANCH_VERSION"
 
             - name: Bump version
-              run: npm version $BRANCH_VERSION
+              run: npm version $BRANCH_VERSION --no-git-tag-version
